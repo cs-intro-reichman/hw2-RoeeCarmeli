@@ -4,10 +4,6 @@ public class TimeCalc {
 		int minutes = Integer.parseInt("" + args[0].charAt(3) + args[0].charAt(4));
         int minutesToAdd = Integer.parseInt(args[1]);
 
-            //System.out.println("hours : " + hours);
-            //System.out.println("minutes : " + minutes);
-            //System.out.println("minuts to add : " + minutesToAdd);
-
         int totalMinuts = ((hours * 60) + minutesToAdd + minutes);
         int totalHours = (totalMinuts / 60);
         int newHours = (totalHours % 24);
@@ -26,7 +22,5 @@ public class TimeCalc {
             else{
                 System.out.print(newMinuts);
             }
-
-        //System.out.println(newHours + " : " + newMinuts);
     }
 }

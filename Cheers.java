@@ -22,6 +22,6 @@ public class Cheers {
                         System.out.println(cheer + "!!!");
                         i++;
                 }
-
+                System.out.println();
         }
 }
